@@ -27,7 +27,7 @@ const GsapScrollTrigger = () => {
             ease:'power1.inOut',
           })
         })
-     },[])
+     },{scope: scrollRef})
      
 
   return (
